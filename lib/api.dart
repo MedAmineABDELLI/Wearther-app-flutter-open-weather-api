@@ -1,1 +1,1 @@
-const OPEN_API_KEY = "407322c4d87911c1ddfbcf14249e80ff";
+const OPEN_API_KEY = api_key; //get free one from open weather
