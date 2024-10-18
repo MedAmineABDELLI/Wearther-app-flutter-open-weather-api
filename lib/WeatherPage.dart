@@ -10,7 +10,7 @@ class Weatherpage extends StatefulWidget {
 }
 
 class _WeatherpageState extends State<Weatherpage> {
-  final WeatherFactory _wf = WeatherFactory("407322c4d87911c1ddfbcf14249e80ff");
+  final WeatherFactory _wf = WeatherFactory(api_key);
   Weather? _weather;
   bool _loading = false;
   String? _errorMessage;
